@@ -13,13 +13,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := renoir
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := M2101K9G
+PRODUCT_MODEL := M2101K9R
 PRODUCT_NAME := lineage_renoir
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="renoir_global-user 13 TKQ1.220829.002 V14.0.7.0.TKIMIXM release-keys" \
-    BuildFingerprint=Xiaomi/renoir_global/renoir:13/TKQ1.220829.002/V14.0.7.0.TKIMIXM:user/release-keys \
+    BuildDesc="renoir_jp-user 13 RKQ1.211001.001 V14.0.4.0.TKIJPXM release-keys" \
+    BuildFingerprint=Xiaomi/renoir_jp/renoir:13/RKQ1.211001.001/V14.0.4.0.TKIJPXM:user/release-keys \
     DeviceProduct=renoir \
-    SystemName=renoir_global
+    SystemName=renoir_jp
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
